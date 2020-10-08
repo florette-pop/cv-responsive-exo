@@ -7,11 +7,11 @@
   border: 1px solid black;
   float: left  top;
   height: auto;
-
   margin: auto;
   max-width: 20%;
   padding: 15px;
-
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .w3docs_tool_circle {/* cercle logo*/
@@ -31,14 +31,17 @@
 header{ /* web dev et illustration*/
   background-color: rgba(0,100,0,50%);
   border: 1px solid black;
-  width: auto;
-  height: auto;
-  left: 106px;
-  margin: 10px;
+  width: 280px;
+  height: 110px;
+  left: 85px;
+  margin: 5px;
   top: 40px;
   padding: 5px;
   border-bottom-style: solid;
   border-bottom-color: rgba(122, 79, 124, 1);
+  overflow: auto;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 .info{ /*cartouche nom adresse*/
@@ -52,6 +55,8 @@ header{ /* web dev et illustration*/
   top: 123px;
   padding: 5px;
   margin-bottom: 30px;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .work{
@@ -82,6 +87,8 @@ header{ /* web dev et illustration*/
   border-left-style: solid;
   border-left-color: rgba(122, 79, 124, 1);
   margin-left: 5%;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .skill{
@@ -97,6 +104,8 @@ header{ /* web dev et illustration*/
   padding: 5px;
   left: 459px;
   top: 380px;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 footer{
@@ -110,4 +119,6 @@ footer{
   left: 0;
   top: 605px;
   background: #C0A5C6
+  overflow: auto;
+  box-sizing: border-box;
 }
