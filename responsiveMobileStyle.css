@@ -5,7 +5,7 @@
 .img{ /*photo profil*/
   background-color: rgba(100,0,0,50%);
   border: 1px solid black;
-  float: left  top;
+  float: top;
   height: auto;
   margin: auto;
   max-width: 20%;
