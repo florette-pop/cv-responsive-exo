@@ -1,1 +1,113 @@
 @media screen and (max-width: 767px);
+
+.img{
+  background-color: (100,0,0,50%);
+  border: 5px, red;
+  max-width: 20%;
+  height: auto;
+}
+
+header{
+  background-color: (100,0,0,50%);
+  border: 5px, red;
+
+width: 157px;
+height: 67px;
+left: 106px;
+top: 40px;
+padding: 5px;
+border-bottom-style: solid;
+border-bottom-color: rgba(122, 79, 124, 1);
+}
+
+.w3docs_tool_circle {
+  background-color: (100,0,0,50%);
+  border: 1px, red;
+   width: 85px;
+   height: 85px;
+   background-color:rgba(122, 79, 124, 1);
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+}
+
+.info{
+  background-color: (100,0,0,50%);
+  border: 1px, red;
+  float: left;
+width: 195px;
+height: 95px;
+padding: 5px;
+left: 15px;
+top: 123px;
+padding: 5px;
+margin-bottom: 30px;
+}
+
+.work{
+  background-color: (100,0,0,50%);
+  border: 1px, red;
+  position: absolute;
+width: 200px;
+height: 330px;
+padding: 5px;
+left: 15px;
+top: 245px;
+text-align: right;
+border-right-style: solid;
+border-right-color: rgba(122, 79, 124, 1);
+
+margin-top: 30px;
+margin-left: 4%;
+}
+
+.w3docs_tool_rect_v {
+  border: 1px, red;
+   width: 8px;
+   height: 470px;
+   background-color: rgba(122, 79, 124, 1);
+}
+
+.scholar{
+  border: 1px, red;
+  position: absolute;
+width: 180px;
+height: 459px;
+padding: 5px;
+left: 239px;
+top: 118px;
+border-left-style: solid;
+border-left-color: rgba(122, 79, 124, 1);
+margin-left: 5%;
+}
+
+.skill{
+  border: 1px, red;
+  position: absolute;
+  text-align: right;
+  width: 160px;
+  height: 120px;
+  border: 3px solid;
+  border-color: rgba(122, 79, 124, 1);
+  margin-left: 7%;
+  margin-top: 15%;
+  padding: 5px;
+  left: 459px;
+top: 380px;
+}
+
+footer{
+  border: 1px, red;
+  position: absolute;
+  width: 595px;
+  height: 430px;
+  padding: 5px;
+
+margin-left: 0;
+margin-top: 15%;
+
+  left: 16px;
+  top: 605px;
+
+background: #C0A5C6
+}
