@@ -2,7 +2,17 @@
   max-width: 767px
 }
 
+body{
+  display: grid;
+    grid-template-columns: 23.75% 23.75% 5% 23.75% 23.75%;
+    grid-template-rows: 10% 10% 5% 10% 5% 30% 5% 10% 5% 10%;
+
+}
+
+
 .img{ /*photo profil*/
+  grid-column-start: : 1;
+  grid-row-start: : 2;
   background-color: rgba(100,0,0,50%);
   border: 1px solid black;
   float: top;
@@ -15,6 +25,9 @@
 }
 
 .w3docs_tool_circle {/* cercle logo*/
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
   background-color:rgba (0,0,100,50%);
   margin-left: :1px;
   float: top;
@@ -28,6 +41,8 @@
 }
 
 header{ /* web dev et illustration*/
+  grid-column-start:  2;
+  grid-column-end: 5;
   background-color: rgba(0,100,0,50%);
   border: 1px solid black;
   width: 280px;
